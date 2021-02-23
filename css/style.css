@@ -1,0 +1,112 @@
+*{
+    background-color: black;
+    color:white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+.bloco{
+    width:80%;
+    margin:1% 10%;
+    padding:1%;
+    float:left;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;   
+}
+
+.linha {
+    width:100%;
+    margin: 40px 0 0 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, gray, transparent);  
+}
+
+.imagem{
+    width:20%;
+    max-height: 300px;
+    padding:0% 3% 0% 0%;
+}
+
+.texto{
+    float:left;
+    width:75%;
+    max-height: 300px;
+}
+
+.texto input{
+    border-radius:10px;
+    background-color: #424242;
+    color:#D8D8D8;
+    padding:2px 15px;
+}
+
+.texto input:hover{
+    background-color: #2E2E2E;
+}
+
+.botao{
+    width:10%;
+    margin:1% 46%;
+    float:left;
+    align-items: center; 
+}
+
+.botao img{
+    width:100%;
+    border: 2px solid black;
+    border-radius:100px;
+}
+
+.botao img:hover{
+    border: 2px solid white;
+}
+
+.blocoInserir{
+    width:40%;
+    margin:1% 30%;
+    padding:1%;
+    float:left;
+    align-items: center; 
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.blocoInserir input{
+    padding:5px 100px 5px 5px;
+}
+
+
+.imagemNota{
+    width:60%;
+    padding:2% 20% 2% 20%;
+}
+
+.textoNota{
+    width:80%;
+    padding:2% 10% 2% 10%;
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+.textoNota input{
+    border-radius:10px;
+    background-color: #424242;
+    color:#D8D8D8;
+    padding:2px 15px;
+}
+
+.textoNota input:hover{
+    background-color: #2E2E2E;
+}
+
