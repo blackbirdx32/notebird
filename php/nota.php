@@ -30,7 +30,25 @@
                     <input type="hidden" name="id" value="<?php echo $row['id'];?>">
                     <input type="submit" value="Alterar">
                 </form>
+                <form method="POST" action="deletar.php">
+                    <input type="hidden" name="id" value="<?php echo $row['id'];?>">
+                    <input class="vermelho" type="submit" value="Excluir">
+                </form>
             </div>
+
+            <div class="linha"></div>
+        </section>
+
+        <section class="bloco">
+                <div class="topico">
+                    <img src="..\imagens\blackbird.jpg">
+                </div>
+                <div class="topico">
+                    <img src="..\imagens\caligari.jpg">
+                </div>
+                <div class="topico">
+                    <img src="..\imagens\nosferatu.jpg">
+                </div>
         </section>
         <?php
             }
