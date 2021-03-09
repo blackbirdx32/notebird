@@ -41,9 +41,9 @@ img{
 
 .texto input{
     border-radius:10px;
-    background-color: #424242;
+    background-color: black;
     color:#D8D8D8;
-    padding:2px 15px;
+    padding:8px 15px;
 }
 
 .texto input:hover{
@@ -99,20 +99,72 @@ img{
     line-height: 25px;
 }
 
-.textoNota input{
-    border-radius:10px;
-    background-color: #424242;
-    color:#D8D8D8;
-    padding:2px 15px;
-    margin:2px;
+.topico{
+    width:20%;
+    height: 200px;
+    max-height: 200px;
+    padding:2% 2.2% 3% 2.2%;
+    background-color:#1C1C1C;
+    margin: 2% 4.4%;
 }
 
-.textoNota input:hover{
+.topico form{
+    background-color: #1C1C1C;
+}
+
+.topico button{
+    border-radius:10px;
+    background-color: #1C1C1C;
+    border:0;
+    margin:0;
+}
+
+.topico button img{
+    width:40%;
+    background-color: #1C1C1C;
+}
+
+
+
+
+.botaoTopico{
+    width:60%;
+    margin:1% 46%;
+    float:left;
+    align-items: center; 
+}
+
+.botaoTopico img{
+    width:100%;
+    border: 2px solid black;
+    border-radius:100px;
+}
+
+.botaoTopico img:hover{
+    border: 2px solid red;
+}
+
+.opc{
+    width:80%;
+    padding:2% 10% 2% 10%;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.opc input{
+    border-radius:10px;
+    background-color: black;
+    color:#D8D8D8;
+    padding:8px 15px;
+    margin:3px;
+}
+
+.opc input:hover{
     background-color: #2E2E2E;
 }
 
-.topico{
-    width:20%;
-    max-height: 300px;
-    padding:0% 2.2% 3% 2.2%;
-}
+
+
